@@ -16,7 +16,7 @@ public class Main {
 
         Dado dados = new Dado(numeros);
 
-        EstatisticaService calculadora = new EstatisticaService();
+        CalculoEstatisticaService calculadora = new CalculoEstatisticaService();
 
         calculadora.executarCalculo(dados);
 

@@ -1,6 +1,5 @@
 package ufes.br.calculos;
 
-import ufes.br.IFormaCalculo;
 import ufes.br.model.Dado;
 import ufes.br.model.Resultado;
 
@@ -17,7 +16,7 @@ public class Somatorio implements IFormaCalculo {
             soma += numero;
         }
 
-        Resultado resultado = new Resultado("Somatorio", soma);
+        Resultado resultado = new Resultado("Somatório", soma);
 
         dados.addResultado(resultado);
     }

@@ -1,6 +1,5 @@
 package ufes.br.calculos;
 
-import ufes.br.IFormaCalculo;
 import ufes.br.model.Dado;
 import ufes.br.model.Resultado;
 
@@ -11,7 +10,7 @@ public class Maior implements IFormaCalculo {
         double maior = dados.getNumeros().getFirst();
 
         for (double numero : dados.getNumeros()) {
-            if (numero >= maior) {
+            if (numero > maior) {
                 maior = numero;
             }
         }

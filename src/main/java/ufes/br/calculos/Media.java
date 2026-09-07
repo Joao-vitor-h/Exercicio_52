@@ -1,6 +1,5 @@
 package ufes.br.calculos;
 
-import ufes.br.IFormaCalculo;
 import ufes.br.model.Dado;
 import ufes.br.model.Resultado;
 

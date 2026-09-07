@@ -1,4 +1,4 @@
-package ufes.br;
+package ufes.br.calculos;
 
 import ufes.br.model.Dado;
 

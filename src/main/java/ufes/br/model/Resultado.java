@@ -10,6 +10,10 @@ public class Resultado {
         this.valorCalculado = valorCalculado;
     }
 
+    public String getNome() { return nome; }
+
+    public double getValorCalculado() { return valorCalculado; }
+
     @Override
     public String toString() {
         return "Nome: " + nome + "\n" +
