@@ -1,5 +1,8 @@
 package ufes.br;
 
+import ufes.br.calculos.DesvioPadrao;
+import ufes.br.calculos.Media;
+import ufes.br.calculos.Somatorio;
 import ufes.br.model.Dado;
 import ufes.br.model.Resultado;
 
@@ -18,7 +21,7 @@ public class Main {
 
         CalculoEstatisticaService calculadora = new CalculoEstatisticaService();
 
-        calculadora.executarCalculo(dados);
+        calculadora.executarCalculo(dados, new DesvioPadrao());
 
         for (Resultado resultado : dados.getResultados()) {
             System.out.println(resultado);

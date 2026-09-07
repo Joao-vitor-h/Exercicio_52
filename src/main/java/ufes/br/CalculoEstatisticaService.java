@@ -19,9 +19,7 @@ public class CalculoEstatisticaService {
         this.formasDeCalculo.add(new DesvioPadrao());
     }
 
-    public void executarCalculo(Dado dados) {
-        for (IFormaCalculo forma : formasDeCalculo) {
-            forma.executarCalculo(dados);
-        }
+    public void executarCalculo(Dado dados, IFormaCalculo operacao) {
+        operacao.executarCalculo(dados);
     }
 }
